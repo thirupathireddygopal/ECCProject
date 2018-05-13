@@ -11,7 +11,7 @@ public class WrapperClassDemo {
 		Integer i1 = 127; // Here [i1] is the object of class Integer
 		Integer i2 = 127; // Here [i2] is the object of class Integer 
 		//and both of these objects are referring to same memory location 127
-		System.out.println(i1 == i2); // true--> checks weather these objects are pointing to same memory location or not 
+		System.out.println(i1 == i2); // true--> checks weather these objects points to same memory location or not 
 		
 		/* caching (or) pointing to same memory of integer value happens to a certain limit
 		 * In case of integers cashing occurs up-to 127 beyond that it does not happen 

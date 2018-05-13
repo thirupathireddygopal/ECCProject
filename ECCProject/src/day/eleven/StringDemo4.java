@@ -19,6 +19,18 @@ public class StringDemo4 {
 		System.out.println("Giving character at-->str1.charAt(0): "+str1.charAt(0));
 		System.out.println("Giving character at-->str1.charAt(5): "+str1.charAt(5));
 		System.out.println("------------------------");
+		System.out.println("string array");
+		String[] s = str1.split("");		
+		for(int i = 0 ; i < s.length ; i++) {
+			System.out.println("spliting string-->str1.spilt():"+s[i]);
+		}
+		System.out.println("------------------------");
+		System.out.println("character array");
+		char[] c = str1.toCharArray();
+		for(int i = 0 ; i < c.length ; i++) {
+			System.out.println("character array elements:"+c[i]);
+		}		
+		System.out.println("------------------------");
 		System.out.println("str1.substring(3,6)-->(start=included,end=excluded): "+str1.substring(3,6));
 		System.out.println("------------------------");
 		System.out.println("str1 in Uppercase is: "+str1.toUpperCase());

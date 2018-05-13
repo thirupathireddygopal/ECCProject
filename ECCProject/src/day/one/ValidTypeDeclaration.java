@@ -5,7 +5,7 @@ public class ValidTypeDeclaration {
 	public static void main(String[] args) {
 		// char declaration
 		char c1 = 064770; // octal representation
-		char c2 = 0xbeef; //hexadecimal
+		char c2 = 0xbeef; // hexadecimal
 		char c3 = '\uface'; // unicode 
 		System.out.println("064770-->" + 064770);
 		System.out.println("0xbeef-->" + 0xbeef);

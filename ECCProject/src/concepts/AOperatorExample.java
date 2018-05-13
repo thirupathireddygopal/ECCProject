@@ -16,7 +16,7 @@ public class AOperatorExample {
 		System.out.println("++x + ++x is-->" + (++x + ++x));
 		System.out.println("x-- is-->" + x--);
 		System.out.println("-----------------------");
-	    // arithmetic expression 
+	    // arithmetic expression *,/,%
 		System.out.println("arithmetic expressions....");
 		System.out.println(10*10 / 5 + 3 - 1*4 % 2/2);
 		System.out.println("-----------------------");

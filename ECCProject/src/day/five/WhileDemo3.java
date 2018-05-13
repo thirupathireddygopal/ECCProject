@@ -2,11 +2,11 @@ package day.five;
 
 public class WhileDemo3 {
 	public static int getSumOfDigits(int n){
-		int r, sum = 0;
+		int rem, sum = 0;
 		while(n>0){
-			r = n%10;
-			System.out.println("reminder r-->" + r);
-			sum = sum + r;
+			rem = n%10;
+			System.out.println("reminder r-->" + rem);
+			sum = sum + rem;
 			n= n/10;
 			System.out.println("number after divison-->" + n);
 		}
