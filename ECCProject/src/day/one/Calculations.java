@@ -5,7 +5,8 @@ public class Calculations {
 	public static void main(String[] args) {
 		int a = 9,b=5;
 		double c = 1.02; // 64-bit precision IEE 754 MORE precise
-		float d = 1.02f; // 32-bit precision IEE 754 LESS precise than double 
+		float d = 1.02f; // 32-bit precision IEE 754 LESS precise than double
+		System.out.println("b++ + --b : " + (b++ + --b));
 		System.out.println("double c is :" + c);
 		System.out.println("float d is :" + d);
 		System.out.println("The sum is :" + (a+b));
